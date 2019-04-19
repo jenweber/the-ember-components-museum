@@ -1,0 +1,1 @@
+export { default } from 'the-ember-components-museum/components/native-block-button';
