@@ -11,6 +11,7 @@ Router.map(function() {
     this.route('curly-braces');
     this.route('angle-brackets');
     this.route('nested');
+    this.route('inline');
     this.route('block');
     this.route('component-helper');
     this.route('native-classes');
