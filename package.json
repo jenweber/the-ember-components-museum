@@ -51,7 +51,7 @@
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-qunit": "^4.1.2",
     "ember-resolver": "^5.1.3",
-    "ember-source": "https://s3.amazonaws.com/builds.emberjs.com/canary/shas/f0816d4b145d3c66cdbd0fa7cd5465120b6530bd.tgz",
+    "ember-source": "https://s3.amazonaws.com/builds.emberjs.com/canary/shas/9975397df62bb1869f08dfd7d7a910716a70d8d3.tgz",
     "eslint-plugin-ember": "^6.0.1",
     "eslint-plugin-node": "^8.0.1",
     "loader.js": "^4.7.0",
