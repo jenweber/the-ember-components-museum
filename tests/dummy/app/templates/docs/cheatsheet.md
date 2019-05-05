@@ -117,7 +117,7 @@ temnplates/
 ### Nested
 
 ```sh
-ember generate component clickables.nested-button
+ember generate component clickables/nested-button
 ```
 
 ```hbs

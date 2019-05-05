@@ -1,6 +1,7 @@
 {{#docs-viewer as |viewer|}}
   {{#viewer.nav as |nav|}}
     {{nav.item 'Introduction' 'docs.index'}}
+    {{nav.item "Cheatsheet" "docs.cheatsheet"}}
     {{#nav.section}}
       Invocation
       {{nav.item "Angle brackets" "docs.angle-brackets"}}
@@ -22,10 +23,6 @@
       {{nav.item "Standard" "docs.standard"}}
       {{nav.item "Nested" "docs.nested"}}
       {{nav.item "Pods" "docs.pods"}}
-    {{/nav.section}}
-
-    {{#nav.section}}
-      {{nav.item "Cheatsheet" "docs.cheatsheet"}}
     {{/nav.section}}
   {{/viewer.nav}}
 
