@@ -31,7 +31,7 @@ That markup is available in the component as `{{yield}}`
 ```
 
 
-## Result:
+## Result
 
 {{#classic-block-button message="Click here!"}}
     <div>
@@ -45,3 +45,5 @@ Block components are useful when you want to reuse a component in a bunch of pla
 You have to turn the layout and presentation into something flexible. That's when it becomes helpful to be able to pass markup too, not just properties.
 
 There are also some fancy things you can do with the scope of data when using block form. One of the best resources for learning them is this [hilarious and informative](https://www.youtube.com/watch?v=MpFudGJn2J0) talk by Miguel Camba.
+
+## Learn more

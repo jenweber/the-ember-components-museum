@@ -10,10 +10,12 @@ The [`component`](https://api.emberjs.com/ember/3.9/classes/Ember.Templates.help
 {{component "simple-button"}}
 ```
 
-## Result:
+## Result
 
 {{component "simple-button"}}
 
 ## Why use it?
 
 When you're first starting out in Ember, you will probably not use this much. But if you're working on projects with complex business logic and UI flows, the component helper becomes useful! For example, you could even have some server-side data and logic that controls which component gets rendered. That's pretty powerful!
+
+## Learn more

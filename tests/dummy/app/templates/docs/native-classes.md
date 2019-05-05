@@ -40,3 +40,5 @@ The action is used in a template like this:
 ## Why use it
 
 Thanks to native classes in JavaScript, now some of Ember's key API features can be expressed in regular JavaScript. This is a huge leap forward in Ember's ergonomics and it greatly improves the learning story. You can read more about native classes in Ember in this RFC.
+
+## Learn more

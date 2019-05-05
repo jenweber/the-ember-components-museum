@@ -25,10 +25,12 @@ Then, the template can use the new names for the parameters:
 <button class="my-button">{{buttonText}}</button>
 ```
 
-## Result:
+## Result
 
 {{positional-button "Click here!" "Some text with instructions"}}
 
 ## Why use it?
 
 Really, it's best not to use positional params. Positional params don't work with Angle Bracket syntax and it's too easy to make mistakes when using them. You can follow [this guide](https://guides.emberjs.com/release/reference/syntax-conversion-guide/) to refactor any examples you find of it in an app.
+
+## Learn more

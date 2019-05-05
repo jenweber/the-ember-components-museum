@@ -19,3 +19,5 @@ temnplates/
 ## Why use it?
 
 This is the most common layout for Ember applications to follow. It allows for easy navigation of the files in an app by searching file names, and does not introduce edge cases like pods have.
+
+## Learn more

@@ -14,10 +14,12 @@ To use it with curly syntax:
 
 At this time, angle brackets do not support nested components, however there is an RFC to add the functionality.
 
-## Result:
+## Result
 
 {{clickables/nested-button}}
 
 ## Why use it?
 
 In an app that's anything larger than a hobby project, it makes sense to group components just for the sake of organization. This is purely a file system choice and has no impact on the component's functionality.
+
+## Learn more

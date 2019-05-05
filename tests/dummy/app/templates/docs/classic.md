@@ -32,3 +32,5 @@ export default Component.extend({
 ## Why use it
 
 A classic component will match most of the code that you see while googling. It's the main way to write the JavaScript for apps that are using stable versions of Ember.
+
+## Learn more

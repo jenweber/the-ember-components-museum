@@ -15,7 +15,7 @@ This button component just has some regular HTML markup in it:
 <button class="my-button">Click here!</button>
 ```
 
-## Result:
+## Result
 
 <SimpleButton></SimpleButton>
 
@@ -24,3 +24,5 @@ This button component just has some regular HTML markup in it:
 Angle Bracket syntax was introduced in [Ember 3.4](https://blog.emberjs.com/2018/10/07/ember-3-4-released.html).
 
 If you're starting a new project, you should probably use Angle Bracket syntax instead of curly bracket syntax, since it has some new helpful features. For example, Angle Brackets can have a component named with one word, like `simple`. No dash needed! It's also much easier to tell that something in a template is a component and not a helper or variable.
+
+## Learn more

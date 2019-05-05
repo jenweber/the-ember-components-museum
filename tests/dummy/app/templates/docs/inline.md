@@ -21,10 +21,12 @@ The button component uses the data passed in:
 <button class="my-button" onclick={{action this.helloWorld}}>{{message}}</button>
 ```
 
-## Result:
+## Result
 
 {{classic-inline-button message="Click here!"}}
 
 ## Why use it?
 
 Inline components are more common than block components. Use them whenever you need to only pass a component data, and you don't need to pass in markup.
+
+## Learn more

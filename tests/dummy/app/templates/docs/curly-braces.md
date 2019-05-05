@@ -15,7 +15,7 @@ This example just has some regular HTML markup in it:
 
 Curly brace component syntax only works when components have a dash in the file name, like `simple-button`.
 
-## Result:
+## Result
 
 {{simple-button}}
 
@@ -25,3 +25,5 @@ If you're starting a new project, you should probably use the newer Angle Bracke
 However, curly brace syntax is still supported in Ember 3. 
 
 You'll see curly brace components it in older apps and code samples. An app can mix and match styles, even within the same template, so that the syntax can be gradually updated. If your component needs positional params, you will have to do some minor refactoring to use them with Angle Bracket syntax.
+
+## Learn more
