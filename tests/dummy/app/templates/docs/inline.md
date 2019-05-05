@@ -4,22 +4,22 @@ There are two ways to pass information into a component, either as properties or
 
 Here's an example using Angle Brackets, where we are passing in a string "Click here!". Note the `@` in front of the property name.
 
-{{#docs-snippet name='some-template.hbs'}}
+```hbs
 <ClassicInlineButton @message="Click here!"></ClassicInlineButton>
-{{/docs-snippet}}
+```
 
 Here's an equivalent example using curly braces:
 
-{{#docs-snippet name='some-template.hbs'}}
+```hbs
 {{classic-inline-button message="Click here!"}}
-{{/docs-snippet}}
+```
 
 The button component uses the data passed in:
 
-{{#docs-snippet name='classic-inline-button.hbs'}}
+```hbs
 <!-- classic-inline-button.hbs -->
 <button class="my-button" onclick={{action this.helloWorld}}>{{message}}</button>
-{{/docs-snippet}}
+```
 
 ## Result:
 

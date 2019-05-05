@@ -2,16 +2,16 @@
 
 There are three ways to tell a template that you want to use a component with a certain name. When you need to use a component within another `.hbs` template, one option is to put the component's name in curly braces.
 
-{{#docs-snippet name='some-template.hbs'}}
+```hbs
 {{simple-button}}
-{{/docs-snippet}}
+```
 
 This example just has some regular HTML markup in it:
 
-{{#docs-snippet name='simple-button.hbs'}}
+```hbs
 <!-- simple-button.hbs -->
 <button class="my-button">Click here!</button>
-{{/docs-snippet}}
+```
 
 Curly brace component syntax only works when components have a dash in the file name, like `simple-button`.
 
