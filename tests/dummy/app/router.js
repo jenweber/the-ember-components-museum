@@ -19,8 +19,10 @@ Router.map(function() {
     this.route('pods');
     this.route('cheatsheet');
     this.route('standard');
+    this.route('classic');
   });
   this.route('docs');
+
 });
 
 export default Router;

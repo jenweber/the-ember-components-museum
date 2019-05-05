@@ -1,17 +1,32 @@
 {{#docs-viewer as |viewer|}}
   {{#viewer.nav as |nav|}}
     {{nav.item 'Introduction' 'docs.index'}}
-    {{nav.item "Angle brackets" "docs.angle-brackets"}}
-    {{nav.item "Curly braces" "docs.curly-braces"}}
-    {{nav.item "Inline" "docs.inline"}}
-    {{nav.item "Block" "docs.block"}}
-    {{nav.item "Component helper" "docs.component-helper"}}
-    {{nav.item "Native classes" "docs.native-classes"}}
-    {{nav.item "Positional params" "docs.positional-params"}}
-    {{nav.item "Nested" "docs.nested"}}
-    {{nav.item "Pods" "docs.pods"}}
-    {{nav.item "Cheatsheet" "docs.cheatsheet"}}
-    {{nav.item "Standard" "docs.standard"}}
+    {{#nav.section}}
+      Invocation
+      {{nav.item "Angle brackets" "docs.angle-brackets"}}
+      {{nav.item "Curly braces" "docs.curly-braces"}}
+      {{nav.item "Inline" "docs.inline"}}
+      {{nav.item "Block" "docs.block"}}
+      {{nav.item "Component helper" "docs.component-helper"}}
+    {{/nav.section}}
+
+    {{#nav.section}}
+      Properties
+      {{nav.item "Classic" "docs.classic"}}
+      {{nav.item "Native classes" "docs.native-classes"}}
+      {{nav.item "Positional params" "docs.positional-params"}}
+    {{/nav.section}}
+
+    {{#nav.section}}
+      File Layout
+      {{nav.item "Standard" "docs.standard"}}
+      {{nav.item "Nested" "docs.nested"}}
+      {{nav.item "Pods" "docs.pods"}}
+    {{/nav.section}}
+
+    {{#nav.section}}
+      {{nav.item "Cheatsheet" "docs.cheatsheet"}}
+    {{/nav.section}}
   {{/viewer.nav}}
 
   {{#viewer.main}}

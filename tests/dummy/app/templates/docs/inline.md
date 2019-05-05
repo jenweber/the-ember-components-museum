@@ -18,7 +18,7 @@ The button component uses the data passed in:
 
 {{#docs-snippet name='classic-inline-button.hbs'}}
 <!-- classic-inline-button.hbs -->
-<button class="my-button">{{message}}</button>
+<button class="my-button" onclick={{action this.helloWorld}}>{{message}}</button>
 {{/docs-snippet}}
 
 ## Result:

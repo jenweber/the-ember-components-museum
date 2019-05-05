@@ -2,6 +2,10 @@
 
 In an Ember app, you can group components into subdirectories. When you generate the component, you can do something like `ember generate component clickables.nested-button`.
 
+```sh
+ember generate component clickables.nested-button
+```
+
 To use it with curly syntax:
 
 ```
