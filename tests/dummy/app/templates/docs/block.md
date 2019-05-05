@@ -6,7 +6,9 @@ Here's an example using Angle Brackets. We are passing a normal property in, the
 
 {{#docs-snippet name='some-template.hbs'}}
 <ClassicBlockButton @message="Click here!">
-    <i>Here is some markup to encourage you to click.</i>
+    <div>
+        <i>Here is some markup to encourage you to click.</i>
+    </div>
 </ClassicBlockButton>
 {{/docs-snippet}}
 

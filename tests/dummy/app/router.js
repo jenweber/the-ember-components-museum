@@ -17,6 +17,8 @@ Router.map(function() {
     this.route('native-classes');
     this.route('positional-params');
     this.route('pods');
+    this.route('cheatsheet');
+    this.route('standard');
   });
   this.route('docs');
 });

@@ -6,7 +6,7 @@ For example, let's say that I am building a health questionnaire form. If the us
 
 The [`component`](https://api.emberjs.com/ember/3.9/classes/Ember.Templates.helpers/methods/component?anchor=component) helper API docs have lots of examples of using it with inline, block, and nested sytnax, so we'll cover just one example here.
 
-```
+```hbs
 {{component "simple-button"}}
 ```
 
