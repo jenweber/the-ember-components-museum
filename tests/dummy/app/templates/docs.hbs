@@ -10,9 +10,12 @@
     {{nav.item "Positional params" "docs.positional-params"}}
     {{nav.item "Nested" "docs.nested"}}
     {{nav.item "Pods" "docs.pods"}}
+    <button class="toggle" {{action 'togglePresenter'}}>Toggle presenter mode</button>
   {{/viewer.nav}}
 
   {{#viewer.main}}
-    {{outlet}}
+    <div class={{presenterModeOn}}>
+      {{outlet}}
+    </div>
   {{/viewer.main}}
 {{/docs-viewer}}

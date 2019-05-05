@@ -18,6 +18,7 @@ Router.map(function() {
     this.route('positional-params');
     this.route('pods');
   });
+  this.route('docs');
 });
 
 export default Router;

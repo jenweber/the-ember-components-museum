@@ -10,10 +10,10 @@ You can use the shorthand for Angle Brackets like this: `<SampleButton />`. Thes
 
 This button component just has some regular HTML markup in it:
 
-{{#docs-snippet name='simple-button.hbs'}}
+```hbs
 <!-- simple-button.hbs -->
 <button class="my-button">Click here!</button>
-{{/docs-snippet}}
+```
 
 ## Result:
 
