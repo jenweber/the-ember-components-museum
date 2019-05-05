@@ -11,6 +11,13 @@
     font-size: 14px;
 }
 
+.author {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
 /* .on .presenter {
     display: none;
 } */
