@@ -27,3 +27,5 @@ However, curly brace syntax is still supported in Ember 3.
 You'll see curly brace components it in older apps and code samples. An app can mix and match styles, even within the same template, so that the syntax can be gradually updated. If your component needs positional params, you will have to do some minor refactoring to use them with Angle Bracket syntax.
 
 ## Learn more
+
+- <a href="https://guides.emberjs.com/release/components/defining-a-component/">Defining a component</a>, from the Ember.js Guides

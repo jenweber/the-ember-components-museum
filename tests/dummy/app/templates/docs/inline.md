@@ -30,3 +30,5 @@ The button component uses the data passed in:
 Inline components are more common than block components. Use them whenever you need to only pass a component data, and you don't need to pass in markup.
 
 ## Learn more
+
+- <a href="https://guides.emberjs.com/release/components/passing-properties-to-a-component/">Passing properties to a component</a>, from the Ember.js Guides

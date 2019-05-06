@@ -26,3 +26,6 @@ Angle Bracket syntax was introduced in [Ember 3.4](https://blog.emberjs.com/2018
 If you're starting a new project, you should probably use Angle Bracket syntax instead of curly bracket syntax, since it has some new helpful features. For example, Angle Brackets can have a component named with one word, like `simple`. No dash needed! It's also much easier to tell that something in a template is a component and not a helper or variable.
 
 ## Learn more
+
+- <a href="https://guides.emberjs.com/release/components/defining-a-component/">Defining a component</a>, from the Ember.js Guides
+- <a href="https://guides.emberjs.com/release/reference/syntax-conversion-guide/">Angle Bracket Syntax conversion</a> from curly braces, from the Ember.js Guides

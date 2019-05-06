@@ -21,3 +21,5 @@ temnplates/
 This is the most common layout for Ember applications to follow. It allows for easy navigation of the files in an app by searching file names, and does not introduce edge cases like pods have.
 
 ## Learn more
+
+- [File layout](https://cli.emberjs.com/release/advanced-use/project-layouts/) from the CLI Guides

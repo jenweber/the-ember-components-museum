@@ -23,3 +23,5 @@ At this time, angle brackets do not support nested components, however there is 
 In an app that's anything larger than a hobby project, it makes sense to group components just for the sake of organization. This is purely a file system choice and has no impact on the component's functionality.
 
 ## Learn more
+
+- [File layout](https://cli.emberjs.com/release/advanced-use/project-layouts/) from the CLI Guides

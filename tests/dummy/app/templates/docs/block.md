@@ -47,3 +47,5 @@ You have to turn the layout and presentation into something flexible. That's whe
 There are also some fancy things you can do with the scope of data when using block form. One of the best resources for learning them is this [hilarious and informative](https://www.youtube.com/watch?v=MpFudGJn2J0) talk by Miguel Camba.
 
 ## Learn more
+
+- <a href="https://guides.emberjs.com/release/components/block-params/">Block params</a>, from the Ember.js Guides
