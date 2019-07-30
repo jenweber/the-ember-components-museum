@@ -134,8 +134,8 @@ ember generate component --pod my-component
 
 ```text
 components/
-    pod-button-name/
-        components.hbs
+    my-component/
+        component.js
         template.hbs
 ```
 

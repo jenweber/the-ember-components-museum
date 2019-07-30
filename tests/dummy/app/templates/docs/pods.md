@@ -5,17 +5,17 @@ Pods are an alternate file layout option in Ember. They were originally released
 To create a component using pods, do something like: 
 
 ```sh
-ember generate component --pod pod-button-name
+ember generate component --pod my-component
 ```
 
-This creates a directory at `components/pod-button-name` that contains a `component.js` and `template.hbs` file.
+This creates a directory at `components/my-component` that contains a `component.js` and `template.hbs` file.
 
 ## Result
 
 ```text
 components/
-    pod-button-name/
-        components.hbs
+    my-component/
+        component.js
         template.hbs
 ```
 
