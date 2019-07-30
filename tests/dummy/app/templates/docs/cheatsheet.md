@@ -1,6 +1,9 @@
 # Cheatsheet
 
-Reference this page to see examples of all component invocation styles in one view.
+Reference this page to see examples of all component invocation styles in one view!
+
+If you're wondering what versions various features
+became available, or you want another angle on what components can do, also check out this [awesome Components Cheatsheet](https://codingitwrong.com/2019/07/23/ember-component-cheat-sheet.html) by Josh Justice.
 
 ## Invocation
 -----
