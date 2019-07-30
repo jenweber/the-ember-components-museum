@@ -38,6 +38,14 @@ Running tests
 
 For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
 
+Deploying
+------------------------------------------------------------------------------
+
+```sh
+ember deploy production
+```
+
+This publishes the docs to gh-pages, using the ember-cli-addon-docs deployment setup.
 
 License
 ------------------------------------------------------------------------------
