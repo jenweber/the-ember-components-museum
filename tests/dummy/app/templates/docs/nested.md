@@ -12,7 +12,11 @@ To use it with curly syntax:
 {{clickables/nested-button}}
 ```
 
-At this time, angle brackets do not support nested components, however there is an RFC to add the functionality.
+As of Ember 3.10, nested components can be invoked with angle brackets using the :: separator:
+
+```
+<Clickables::NestedButton />
+```
 
 ## Result
 
