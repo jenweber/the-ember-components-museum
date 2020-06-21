@@ -1,6 +1,6 @@
 the-ember-components-museum
 ==============================================================================
-
+testing a thing
 There are many different ways that you can define and use Components in Ember 3! This project has documentation and working examples of all the different forms that Components take:
 
 - inline and block
